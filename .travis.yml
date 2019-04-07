@@ -1,0 +1,9 @@
+language: julia
+julia:
+  - 1.0
+  - nightly
+notifications:
+  email: false
+before_install:
+  - sudo apt-get update -qq -y
+  - sudo apt-get install libcfitsio3 -y
